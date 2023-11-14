@@ -4,5 +4,12 @@ ExploroRover, a groundbreaking project that converges robotics, surveillance, an
 Its multifaceted role as a mobile surveillance system. Equipped with high-quality video capture capabilities, it serves as a vigilant eye in real-time, capturing and relaying the visual essence of its surroundings. But it doesn't stop there ExploroRover is not just a witness; it's an analyst. Integrated temperature and moisture sensors provide a comprehensive environmental snapshot, elevating its utility for applications ranging from security to environmental monitoring. Join us in sculpting a device that redefines exploration, seamlessly intertwining mobility, control, and environmental intelligence into the fabric of modern innovation.
 
 <b> Objective of the project: </b><br>
-●	The primary objectives of the ExploroRover are Mobility and Control, Real-Time Video Capture, Obstacle Avoidance and Environmental Monitoring under one platform.<br>
-●	The user can Integrate or collect the Data remotely.
+<li>●	The primary objectives of the ExploroRover are Mobility and Control, Real-Time Video Capture, Obstacle Avoidance and Environmental Monitoring under one platform.</li>
+<li>●	The user can Integrate or collect the Data remotely.</li>
+<br>
+<h4 style="color:red;"> Images</h4>
+<img src="SampleData/IMG20231114180733.jpg"/>
+<img src="SampleData/IMG20231114180737.jpg"/>
+<img src="SampleData/IMG20231114180806.jpg"/>
+<img src="SampleData/IMG20231114180845.jpg"/>
+
