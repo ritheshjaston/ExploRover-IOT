@@ -19,7 +19,7 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 <br>
 <h4 style="color:red;"> Images</h4>
-<img src="SampleData/IMG20231114180733.jpg"/>
+<img src="SampleData/IMG20231214205829.jpg"/>
 <img src="SampleData/IMG20231114180737.jpg"/>
 <img src="SampleData/IMG20231114180806.jpg"/>
 <img src="SampleData/IMG20231114180845.jpg"/>
