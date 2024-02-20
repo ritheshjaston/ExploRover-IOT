@@ -1,11 +1,9 @@
 //HTML code for webpage
 //=====================
 const char webpageCode[] PROGMEM =
-R"=====(
-
+  R"=====(
 <!DOCTYPE HTML>
 <html>
-
 <head>
     <title>ESP32 Web Server</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,18 +52,13 @@ R"=====(
         }
     </style>
 </head>
-<!-------------------------------C S S------------------------------>
-
-<!------------------------------H T M L----------------------------->
-
 <body>
-    <h2>EXPLO ROVER -let's Explore Now</h2>
+    <h2>Infant and Environment Monitoring</h2>
     <img id="videoStream" src="#" width="640" height="480"
         onerror="this.src='https://img-c.udemycdn.com/course/480x270/4210070_6b6f_2.jpg'" /><br>
     <label for="points">Camera Position(0-180<sup>o</sup>)</label><br>
     <input type="range" class="progress" id="points" name="points" min="0" max="180"
         onchange="toggleCheckbox(this.value)">
-
     <table>
         <tr align="left">
             <td>Temparature: </td>
@@ -94,7 +87,6 @@ R"=====(
         </tr>
 
     </table>
-
     <table>
         <tr>
             <button class="button" style="background-color: goldenrod;" onmousedown="toggleCheckbox('slow');"
@@ -124,11 +116,13 @@ R"=====(
                     ontouchend="toggleCheckbox('stop');">Backward</button></td>
         </tr>
     </table>
-
-    <!-----------------------------JavaScript--------------------------->
+    <br>
+    <br>
+    <br>
+    <br>
     <script>
         var img = document.getElementById("videoStream");
-        img.src = "http://192.168.43.249:81/stream";
+        img.src = "http://192.168.93.202:81/stream";
         InitWebSocket()
         function InitWebSocket() {
             websock = new WebSocket('ws://' + window.location.hostname + ':81/');
@@ -156,29 +150,12 @@ R"=====(
                 }else{
                   document.getElementById("control").style.visibility = "visible";
                 }
-
-
-
-
             }
         }
-        //-------------------------------------------------------------
         function toggleCheckbox(action) {
             websock.send(action);
-
-            // if (action === "auto") {
-            //     if (document.getElementById("control").style.visibility == "visible") {
-            //         document.getElementById("control").style.visibility = "hidden";
-            //     } else {
-            //         document.getElementById("control").style.visibility = "visible";
-            //     }
-            // }
         }
-
-
-
     </script>
 </body>
-
 </html>
 )=====";
